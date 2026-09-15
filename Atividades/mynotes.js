@@ -42,7 +42,7 @@ const dobrar = num => num * 2;
 // do mesmo tamanho. (confuso né mas calma)
 
 
-let numeros = [1, 2, 3, 4]; //Aqui temos uma lista normal
+let numerosNaturais = [1, 2, 3, 4]; //Aqui temos uma lista normal
 
 let numerosDobrados = numeros.map(num => num * 2); // isso aq é a função. Ou seja o que 
 
@@ -64,7 +64,7 @@ console.log(numerosDobrados); // [2, 4, 6, 8]
 // O nome ja diz tudo. O filter ele vai filtar (kkkkkkk) as variaveis da lista de 
 //de acordo com a função
 
-let numeros = [5, 10, 15, 20]; // Um array comum :>
+let numero = [5, 10, 15, 20]; // Um array comum :>
 
 let maioresQueDez = numeros.filter(num => num > 10); // Aqui a função basicamente diz 
 //"Filtra os numeros maiores de 10"
@@ -86,7 +86,7 @@ console.log(maioresQueDez); // E como esta na lista, o filter repassou os numero
 // Vamos imaginar um potinho e esse potinho a medida que vai passando pelos 
 //da lista ele vai acumulando e sempre adicionando com o proximo da lista.
 
-let numeros = [1, 2, 3, 4]; // Um array comum :>
+let numbers = [1, 2, 3, 4]; // Um array comum :>
 
 let soma = numeros.reduce((acumulador, auxiliar) => acumulador + auxiliar, 0); //Aqui
 
